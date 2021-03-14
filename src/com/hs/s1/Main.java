@@ -24,17 +24,16 @@ public class Main {
 			
 			switch(select) {
 			case 1:
-				membersDTO=memberWork.memberJoin();
 				try {
+					membersDTO=memberWork.memberJoin();
 					result=membersDAO.memberJoin(membersDTO);
 					if(result!=0) {
 						System.out.println("회원가입 성공");
-					}else {
-						System.out.println("회원가입 실패");
 					}
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					System.out.println("회원가입 실패");
 				}
 				break;
 			case 2:

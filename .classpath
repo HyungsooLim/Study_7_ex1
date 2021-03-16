@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/hyungsoolim/Dev/util/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="/Users/hyungsoolim/Dev/util/ojdbc/ojdbc6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
